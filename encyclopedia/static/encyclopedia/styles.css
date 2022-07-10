@@ -1,0 +1,97 @@
+@media only screen and (min-width: 600px) { 
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Pattaya&display=swap');
+
+body{
+    margin: 0;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+code {
+    white-space: pre;
+}
+h1 {
+    margin-top: 0px;
+    padding-top: 18px;
+    color: white;
+    font-family:'Merriweather', serif; 
+    text-align: center;
+    font-size: 55px;
+}
+.search {
+    max-width: fit-content ;
+    font-size: 17px;
+    line-height: 30px;
+    
+}
+text-area {
+    height: 0px;
+    width:80%;
+}
+.main {
+    padding: 10px;
+}
+
+.sidebar {
+    padding:20px;
+    background-color: rgb(49, 49, 47);
+    height: 100vh;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+.sidebar img {
+    width: auto;
+    height: 350px;
+}
+.display-4 {
+    margin-left: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.display-2 {
+    margin-left: 25px;
+    font-family:'Times New Roman', Times, serif; 
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+}
+.sidebar a.active {
+    background-color: #4ca0af;
+    color:red
+}
+.sidebar a:hover:not(.active) {
+    background-color:rgb(126, 119, 119);
+    color:black;
+}
+@media screen and (max-width: 400px) {
+    .sidebar a{
+        text-align: center;
+        float: none;
+    }
+}
+#search {
+    margin-bottom: 2vh;
+}
+.form-control-placeholdericon {
+    font-family: Roboto, FontAwesome,'Material Icons';
+}
+#newtitle {
+    width: 40vw;
+}
+#newcontent {
+    width: 40vw;
+    height:42vw;
+}
+button {
+    width: 100px;
+}
+#edtitle {
+    width: 40vw;
+}
+#editcontent {
+    width: 40vw;
+    height: 40vh;
+    overflow: auto;
+}
+
+}
